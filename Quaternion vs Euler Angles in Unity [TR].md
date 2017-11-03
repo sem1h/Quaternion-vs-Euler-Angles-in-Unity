@@ -14,16 +14,18 @@ Aynı matris birden fazla açıya denk gelebiliyor.
 "Gimbal Lock" sorunu oluşabiliyor. İki eksenin çakışıp bağımsızlığını yitirmesi.
 (Buna "Loss of degree of freedom" deniyor.) Örnek:
 
-**Gimbal Lock'a uğrayan uçak: **
+**Gimbal Lock'a uğrayan uçak:**
+
 ![Gimbal Lock'a uğrayan uçak](/Gimbal_lock_airplanebyLookang.gif) 
 
-<sub>(By Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15837410) </sub>
+<sub>(Image by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15837410) </sub>
 
 
 **Gimbal Lock teorik gösterim:**
+
 ![Gimbal Lock sorunu teorik gösterim](/gimballockbyLookang.gif) 
 
-<sub> (By Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15837410) </sub>
+<sub> (Image by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15837410) </sub>
 
 Bu sorunun yaşanmaması için Quaternion'lar kullanılıyor. 
 Quaternion'larda Euler açılarına ek olarak 4. bir değer var. 
