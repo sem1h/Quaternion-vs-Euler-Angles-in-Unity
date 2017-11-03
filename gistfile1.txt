@@ -1,6 +1,6 @@
-Unity'de 3D çalışırken kafa kurcalayan konulardan biri 
-Quaternion'ların ne işe yaradığı,
-Neden her yerde Euler Angles kullanılmadığı ve Quaternion kullanıldığı.
+#Unity'de 3D çalışırken kafa kurcalayan konulardan biri 
+#Quaternion'ların ne işe yaradığı,
+#Neden her yerde Euler Angles kullanılmadığı ve Quaternion kullanıldığı.
 
 3 Boyutlu rotasyon belirtmek için kullanılan Euler Açısı, 
 bir 3x3 rotasyon matrisi ile ifade edilebiliyor. 
