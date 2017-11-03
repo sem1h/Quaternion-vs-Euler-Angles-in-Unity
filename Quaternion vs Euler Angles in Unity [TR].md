@@ -5,8 +5,7 @@ Neden her yerde Euler Angles kullanılmadığı ve Quaternion kullanıldığı.
 3 Boyutlu rotasyon belirtmek için kullanılan Euler Açısı, 
 bir 3x3 rotasyon matrisi ile ifade edilebiliyor. Örnek:
 
-![Euler Açısı](https://wikimedia.org/api/rest_v1/media/math/render/svg/22ecc7d65613b53c38208ccdb9f3a05206222593
-)
+![Euler Açısı](/Quaternion-vs-Euler-Angles-in-Unity/blob/master/euler%20angle.svg)
 
 İdeal bir sistemde her bir rotasyon matrisinin, yalnızca tek açıya isabet etmesini isteriz.
 Sorun şu ki bu matrisler, her zaman için tek açıya tekabül etmeyebiliyor.
@@ -16,8 +15,10 @@ Aynı matris birden fazla açıya denk gelebiliyor.
 (Buna "Loss of degree of freedom" deniyor.) Örnek:
 
 ![Gimbal Lock'a uğrayan uçak](/images/Gimbal_lock_airplane.gif)
+(By Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15837410)
 
 ![Gimbal Lock teorik gösterim](/images/gimballock.gif)
+(By Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre (Own work) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons)
 
 Bu sorunun yaşanmaması için Quaternion'lar kullanılıyor. 
 Quaternion'larda Euler açılarına ek olarak 4. bir değer var. 
