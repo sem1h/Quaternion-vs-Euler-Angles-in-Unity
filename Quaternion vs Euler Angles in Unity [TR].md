@@ -1,6 +1,5 @@
 Unity'de 3D çalışırken kafa kurcalayan konulardan biri 
-Quaternion'ların ne işe yaradığı,
-Neden her yerde Euler Angles kullanılmadığı ve Quaternion kullanıldığı.
+Quaternion'ların ne işe yaradığı ve neden bazı yerlerde rotasyon değeri olarak Euler Angle değil de Quaternion kullanıldığıdır.
 
 3 Boyutlu rotasyon belirtmek için kullanılan Euler Açısı, 
 bir 3x3 rotasyon matrisi ile ifade edilebiliyor. Örnek:
@@ -48,4 +47,21 @@ Mesela Quaternion.Identity(); rotasyon yok demek
 ya da 
 Quaternion.lookrotation(yeniRotasyon); dediğimizde 
 vereceğimiz yeni rotasyona dönüş sağlıyoruz.
+
+Unity'de Quaternion ile ifade edilmiş bir rotasyonu, Euler Angle'a dönüştürebiliriz:
+Bunun için Quaternion.eulerAngles() metodunu çağırmamız yeterli: 
+
+```csharp
+using UnityEngine;
+using System.Collections;
+
+public class ExampleClass : MonoBehaviour {
+    public Quaternion rotation = Quaternion.identity;
+    void Example() {
+        rotation.eulerAngles = new Vector3(0, 30, 0);
+        print(rotation.eulerAngles.y);
+    }
+} 
+```
+https://docs.unity3d.com/ScriptReference/Quaternion-eulerAngles.html
 
