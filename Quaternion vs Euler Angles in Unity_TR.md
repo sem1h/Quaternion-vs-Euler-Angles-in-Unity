@@ -1,11 +1,12 @@
-# Unity'de 3D çalışırken kafa kurcalayan konulardan biri 
-# Quaternion'ların ne işe yaradığı,
-# Neden her yerde Euler Angles kullanılmadığı ve Quaternion kullanıldığı.
+Unity'de 3D çalışırken kafa kurcalayan konulardan biri 
+Quaternion'ların ne işe yaradığı,
+Neden her yerde Euler Angles kullanılmadığı ve Quaternion kullanıldığı.
 
 3 Boyutlu rotasyon belirtmek için kullanılan Euler Açısı, 
 bir 3x3 rotasyon matrisi ile ifade edilebiliyor. 
 
-Örnek: https://wikimedia.org/api/rest_v1/media/math/render/svg/22ecc7d65613b53c38208ccdb9f3a05206222593
+Örnek: ![Euler Açısı](https://wikimedia.org/api/rest_v1/media/math/render/svg/22ecc7d65613b53c38208ccdb9f3a05206222593
+)
 
 İdeal bir sistemde her bir rotasyon matrisinin, yalnızca tek açıya isabet etmesini isteriz.
 Sorun şu ki bu matrisler, her zaman için tek açıya tekabül etmeyebiliyor.
