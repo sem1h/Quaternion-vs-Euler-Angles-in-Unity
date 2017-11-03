@@ -15,14 +15,14 @@ Aynı matris birden fazla açıya denk gelebiliyor.
 (Buna "Loss of degree of freedom" deniyor.) Örnek:
 
 **Gimbal Lock'a uğrayan uçak:**
-
+<sub><sup></sub></sup>
 ![Gimbal Lock'a uğrayan uçak](/Gimbal_lock_airplanebyLookang.gif) 
 
 <sub>(Image by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15837410) </sub>
 
 
 **Gimbal Lock teorik gösterim:**
-
+<sub><sup></sub></sup>
 ![Gimbal Lock sorunu teorik gösterim](/gimballockbyLookang.gif) 
 
 <sub> (Image by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15837410) </sub>
