@@ -15,9 +15,9 @@ Aynı matris birden fazla açıya denk gelebiliyor.
 "Gimbal Lock" sorunu oluşabiliyor. İki eksenin çakışıp bağımsızlığını yitirmesi.
 (Buna "Loss of degree of freedom" deniyor.) Örnek:
 
-![Gimbal Lock'a uğrayan uçak](https://en.wikipedia.org/wiki/File:Gimbal_lock_airplane.gif)
+![Gimbal Lock'a uğrayan uçak](/images/Gimbal_lock_airplane.gif)
 
-![Gimbal Lock teorik gösterim](https://en.wikipedia.org/wiki/File:Gimbal_3_axes_rotation.gif)
+![Gimbal Lock teorik gösterim](/images/gimballock.gif)
 
 Bu sorunun yaşanmaması için Quaternion'lar kullanılıyor. 
 Quaternion'larda Euler açılarına ek olarak 4. bir değer var. 
