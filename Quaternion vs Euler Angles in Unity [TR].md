@@ -3,9 +3,9 @@ Quaternion'ların ne işe yaradığı,
 Neden her yerde Euler Angles kullanılmadığı ve Quaternion kullanıldığı.
 
 3 Boyutlu rotasyon belirtmek için kullanılan Euler Açısı, 
-bir 3x3 rotasyon matrisi ile ifade edilebiliyor. 
+bir 3x3 rotasyon matrisi ile ifade edilebiliyor. Örnek:
 
-Örnek: ![Euler Açısı](https://wikimedia.org/api/rest_v1/media/math/render/svg/22ecc7d65613b53c38208ccdb9f3a05206222593
+![Euler Açısı](https://wikimedia.org/api/rest_v1/media/math/render/svg/22ecc7d65613b53c38208ccdb9f3a05206222593
 )
 
 İdeal bir sistemde her bir rotasyon matrisinin, yalnızca tek açıya isabet etmesini isteriz.
@@ -15,8 +15,9 @@ Aynı matris birden fazla açıya denk gelebiliyor.
 "Gimbal Lock" sorunu oluşabiliyor. İki eksenin çakışıp bağımsızlığını yitirmesi.
 (Buna "Loss of degree of freedom" deniyor.) Örnek:
 
-https://en.wikipedia.org/wiki/File:Gimbal_lock_airplane.gif  
-https://en.wikipedia.org/wiki/File:Gimbal_3_axes_rotation.gif
+![Gimbal Lock'a uğrayan uçak](https://en.wikipedia.org/wiki/File:Gimbal_lock_airplane.gif)
+
+![Gimbal Lock teorik gösterim](https://en.wikipedia.org/wiki/File:Gimbal_3_axes_rotation.gif)
 
 Bu sorunun yaşanmaması için Quaternion'lar kullanılıyor. 
 Quaternion'larda Euler açılarına ek olarak 4. bir değer var. 
